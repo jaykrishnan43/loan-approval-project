@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+cibil_score,6.5065837
+emi_income_ratio,1.1416091
+residential_assets_value,0.8366141
+commercial_assets_value,0.6823367
+loan_income_ratio,0.54943776
+loan_amount,0.45160192
+emi_proxy,0.39556053
+asset_total,0.17324522
+loan_term,0.14436173
+income_annum,0.10868889
+bank_asset_value,0.101044595
+education_ Not Graduate,0.0967831
+no_of_dependents,0.0857309
+luxury_assets_value,0.08170601
+self_employed_ Yes,0.033135418

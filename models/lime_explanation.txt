@@ -1,0 +1,12 @@
+LIME explanation (Approved class)
+
+cibil_score > 748.00: +0.5233
+3.00 < loan_income_ratio <= 3.50: +0.0646
+0.19 < emi_income_ratio <= 0.28: -0.0514
+self_employed_ Yes <= 0.00: +0.0192
+bank_asset_value > 7100000.00: -0.0188
+2200000.00 < residential_assets_value <= 5600000.00: +0.0177
+1.00 < no_of_dependents <= 3.00: -0.0146
+education_ Not Graduate <= 0.00: +0.0103
+1357142.86 < emi_proxy <= 2516666.67: -0.0088
+income_annum > 7500000.00: -0.0042

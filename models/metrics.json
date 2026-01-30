@@ -1,0 +1,13 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.7459016393442623,
+    "auc": 0.8206958073148973
+  },
+  "xgboost": {
+    "accuracy": 0.9941451990632318,
+    "auc": 0.9990787870307207
+  },
+  "rows": 4269,
+  "features": 15,
+  "approval_rate": 0.622159756383228
+}
