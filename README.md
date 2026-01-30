@@ -1,56 +1,47 @@
-# Bank Loan Approval Prediction
+# Loan Approval Prediction
 
-This project predicts whether a bank loan should be **Approved or Rejected** using machine learning and explains each decision using a **SHAP waterfall plot**.
+This project predicts whether a bank loan application should be approved or rejected using machine learning and explains each decision using SHAP waterfall plots.
 
-The system follows a realistic banking workflow by applying policy rules before machine learning predictions.
+## Overview
+The system follows a realistic banking workflow:
+- Apply a policy rule using CIBIL score
+- Predict loan approval using an XGBoost model
+- Explain the decision using a SHAP waterfall explanation
 
----
+## Features
+- Policy-based screening using minimum CIBIL score
+- Loan approval prediction using XGBoost
+- SHAP waterfall explanation for each individual prediction
+- Interactive Streamlit dashboard
 
-## What the Project Does
-
-- Applies a **policy rule** (minimum CIBIL score)
-- Predicts loan approval using **XGBoost**
-- Explains each prediction using **SHAP waterfall explanation**
-- Provides an interactive **Streamlit dashboard**
-
----
-
-## Tech Stack
-
+## Technologies Used
 - Python
-- Pandas, NumPy
+- Pandas
+- NumPy
 - Scikit-learn
 - XGBoost
-- SHAP, LIME
+- SHAP
+- LIME
 - Streamlit
 - Matplotlib
 
----
-
 ## Project Structure
-
 loan-approval-project/
-├── app/ # Streamlit app
-├── notebooks/ # Data prep, training, explainability
-├── data/ # Dataset
-├── models/ # Trained model and feature columns
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-
----
+app/
+notebooks/
+data/
+models/
+requirements.txt
+README.md
+.gitignore
 
 ## How to Run
-
-```bash
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 
-Explainability
-
+## Explainability
 Each loan decision is explained using a SHAP waterfall plot, showing how individual features contribute to approval or rejection.
 
-Author
-
+## Author
 Jayakrishnan K
+https://github.com/jaykrishnan43
